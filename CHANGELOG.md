@@ -10,8 +10,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * readonly parent error ([#280](https://github.com/prevwong/craft.js/issues/280)) ([83fdc23](https://github.com/prevwong/craft.js/commit/83fdc232213b1b504679e50efb21cf708f23e069))
 * sync <Editor /> props with state options ([#271](https://github.com/prevwong/craft.js/issues/271)) ([3156043](https://github.com/prevwong/craft.js/commit/3156043232b7e88f39e313b70f00bfb91ba830a3)), closes [prevwong/craft.js#149](https://github.com/prevwong/craft.js/issues/149)
-
-
-### Features
-
-* clear history ([#281](https://github.com/prevwong/craft.js/issues/281)) ([7524cb2](https://github.com/prevwong/craft.js/commit/7524cb2d59aa81470eadbeb9f1267451b1252bac))

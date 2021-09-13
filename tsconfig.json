@@ -1,19 +1,13 @@
 {
-  "extends": "./tsconfig.base.json",
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./src",
+    "outDir": "./lib",
     "allowSyntheticDefaultImports": true,
-    "allowJs": true,
-    "esModuleInterop": true,
-    "paths": {
-      "@craftjs/core": ["packages/core/src/index"],
-      "@craftjs/*": ["packages/core/src/*"],
-      "@craftjs/layers": ["packages/layers/src/index"],
-      "@craftjs/utils": ["packages/utils/src/index"],
-      "@craftjs/utils/*": ["packages/utils/src/*"],
-      "@craftjs/slate": ["packages/slate/src/*"],
-      "@craftjs/slate/*": ["packages/slate/src/*"]
-    }
+    "skipLibCheck": true,
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "./lib"
   },
-  "exclude": ["**/node_modules/**"]
+  "include": ["./src/index.tsx"]
 }
